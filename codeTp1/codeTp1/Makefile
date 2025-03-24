@@ -1,6 +1,6 @@
 # A mettre a jour : répertoire d'installation de Google Test
-GTEST_DIR = ./googletest/googletest
-GTEST_LIB = ./googletest/lib
+GTEST_DIR = /workspaces/tp10-titouan_al_le_retour/googletest/googletest
+GTEST_LIB = /workspaces/tp10-titouan_al_le_retour/googletest/lib
 
 CPP_FLAGS = -isystem $(GTEST_DIR)/include  -g -Wall -Wextra -pthread -std=c++11
 
