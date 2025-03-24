@@ -2,7 +2,7 @@
 GTEST_DIR = /workspaces/tp10-titouan_al_le_retour/googletest/googletest
 GTEST_LIB = /workspaces/tp10-titouan_al_le_retour/googletest/lib
 
-CPP_FLAGS = -isystem $(GTEST_DIR)/include  -g -Wall -Wextra -pthread -std=c++11
+CPP_FLAGS = -isystem $(GTEST_DIR)/include  -g -Wall -Wextra -pthread -std=c++17
 
 GTEST_HEADERS = $(GTEST_DIR)/include/gtest/*.h \
                 $(GTEST_DIR)/include/gtest/internal/*.h
